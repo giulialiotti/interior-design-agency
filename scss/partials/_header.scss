@@ -1,0 +1,18 @@
+header a {
+    font-family: $font-title;
+    font-size: 1.285rem;
+    font-weight: 500;
+    color: $light-blue;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-family: $font-title;
+    font-size: 1.285rem;
+    font-weight: 500;
+    color: $blue;
+}

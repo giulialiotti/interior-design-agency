@@ -6,3 +6,7 @@ h1 {
     font-weight: 500;
     color: $blue;
 }
+
+.text-box a {
+    @include button;
+}
