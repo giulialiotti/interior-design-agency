@@ -1,0 +1,23 @@
+@media screen and (min-width: 960px) {
+    // Header 
+
+    .menu {
+        input,
+        span {
+            display: none;
+        }
+        ul {
+            position: static;
+            height: auto;
+            background: transparent;
+            opacity: 1;
+            list-style: none;
+            display: flex;
+        }
+        a {
+            text-decoration: none;
+            padding: 0 1rem;
+            color: $blue;
+        }
+    }
+}
