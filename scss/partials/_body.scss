@@ -1,5 +1,13 @@
 // Estilos generales
 
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 :root {
     font-size: 14px;
 }
