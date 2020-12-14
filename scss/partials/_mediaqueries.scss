@@ -1,4 +1,10 @@
 @media screen and (min-width: 960px) {
+    // Body 
+
+    body {
+        margin: 3% 8%;
+    }
+    
     // Header 
 
     .menu {
@@ -19,5 +25,28 @@
             padding: 0 1rem;
             color: $blue;
         }
+    }
+
+    // Section 1 
+
+    #section-1 {
+        max-height: 41rem;
+    }
+
+    #section-1 .text-box {
+        position: relative;
+        z-index: 1;
+        top: -31rem;
+        background-color: white;
+        width: 60%;
+        height: 18rem;
+        left: -2%;
+    }
+
+    .text-box h1,
+    .text-box p,
+    .text-box a {
+        margin-right: 10%;
+        margin-left: 8%;
     }
 }
