@@ -13,9 +13,22 @@ h1 {
 
 // Section 2
 
+#section-2 .text-two {
+    text-align: center;
+}
+
 // Section 3
 
+.text-three h3,
+.text-three p {
+    text-align: center;
+}
+
 // Section 4
+
+.text-four a {
+    @include button;
+}
 
 // Section 5
 
