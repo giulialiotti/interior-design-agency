@@ -65,7 +65,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+        padding: 1rem 0;
+
         h2 {
             max-width: 30%;
             text-align: end;
@@ -106,4 +107,21 @@
     .text-four {
         padding-right: 4rem;
     }
+
+    // Section 5 
+
+    .text-five {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text-five h2 {
+        width: 30%;
+        text-align: end;
+    }
+
+    .text-five p {
+        width: 45%;
+    }
+        
 }
