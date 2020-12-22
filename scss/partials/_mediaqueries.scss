@@ -123,5 +123,29 @@
     .text-five p {
         width: 45%;
     }
+
+    // Section 6
+
+    #section-6 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text-six {
+        width: 55%;
+    }
+
+    #section-6 h2,
+    #section-6 p {
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
         
 }
