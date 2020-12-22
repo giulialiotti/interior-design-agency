@@ -48,6 +48,12 @@
 
     #section-1 {
         height: 41rem;
+        background-image: url("https://kaboompics.com/cache/1/b/a/9/a/1ba9a9c4841e821c96e1e482d2511480c276fc8a.jpeg");
+        background-repeat: no-repeat;
+    }
+
+    .bg-image {
+        visibility: hidden;
     }
 
     #section-1 .text-box {
@@ -179,10 +185,11 @@
         
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
 
     #section-1 {
         height: 59rem;
     }
 
 }
+
