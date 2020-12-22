@@ -65,11 +65,12 @@ video {
 
 .buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .buttons a {
     @include button;
+    width: 9rem;
     background-color: $blue;
     border: 3px solid white;
     &:hover {

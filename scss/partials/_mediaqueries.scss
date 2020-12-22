@@ -143,9 +143,21 @@
 
     .buttons {
         flex-direction: column;
-        justify-content: space-evenly;
         padding-right: 2rem;
         padding-top: 2rem;
+    }
+
+    // Footer 
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+
+        p {
+            text-align: end;
+        }
     }
         
 }
