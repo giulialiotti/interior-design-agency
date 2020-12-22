@@ -47,7 +47,7 @@
     // Section 1 
 
     #section-1 {
-        max-height: 41rem;
+        height: 41rem;
     }
 
     #section-1 .text-box {
@@ -177,4 +177,12 @@
     //     }
     // }
         
+}
+
+@media screen and (min-width: 1400px) {
+
+    #section-1 {
+        height: 59rem;
+    }
+
 }
