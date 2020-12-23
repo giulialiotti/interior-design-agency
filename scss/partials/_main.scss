@@ -9,6 +9,9 @@ h1 {
 
 .text-box a {
     @include button;
+    &:hover {
+        background-color: $pink;
+    }
 }
 
 // Section 2
@@ -38,6 +41,9 @@ h1 {
 
 .text-four a {
     @include button;
+    &:hover {
+        background-color: $pink;
+    }
 }
 
 // Section 5
@@ -76,6 +82,6 @@ video {
     &:hover {
         background-color: white;
         border: none;
-        color: $blue;
+        color: $pink;
     } 
 }

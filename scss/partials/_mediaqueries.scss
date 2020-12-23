@@ -41,6 +41,11 @@
             text-decoration: none;
             padding: 0 1rem;
             color: $blue;
+            &:hover {
+                text-decoration-line: underline;
+                text-decoration-style: double;
+                color: $pink;
+            }
         }
     }
 
