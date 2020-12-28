@@ -1,4 +1,46 @@
 @media screen and (min-width: 767px) {
+
+    //Header
+
+    .menu {
+        input,
+        span {
+            display: none;
+        }
+        ul {
+            position: static;
+            height: auto;
+            background: transparent;
+            opacity: 1;
+            list-style: none;
+            display: flex;
+        }
+        a {
+            text-decoration: none;
+            padding: 0 1rem;
+            color: $blue;
+            &:hover {
+                text-decoration-line: underline;
+                text-decoration-style: double;
+                color: $pink;
+            }
+        }
+    }   
+
+    // Section 2
+
+    .info-2 {
+        display: flex;
+    }
+
+    // Section 4
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2rem;
+    }
         
     // Footer 
 
@@ -37,30 +79,30 @@
     
     // Header 
 
-    .menu {
-        input,
-        span {
-            display: none;
-        }
-        ul {
-            position: static;
-            height: auto;
-            background: transparent;
-            opacity: 1;
-            list-style: none;
-            display: flex;
-        }
-        a {
-            text-decoration: none;
-            padding: 0 1rem;
-            color: $blue;
-            &:hover {
-                text-decoration-line: underline;
-                text-decoration-style: double;
-                color: $pink;
-            }
-        }
-    }
+    // .menu {
+    //     input,
+    //     span {
+    //         display: none;
+    //     }
+    //     ul {
+    //         position: static;
+    //         height: auto;
+    //         background: transparent;
+    //         opacity: 1;
+    //         list-style: none;
+    //         display: flex;
+    //     }
+    //     a {
+    //         text-decoration: none;
+    //         padding: 0 1rem;
+    //         color: $blue;
+    //         &:hover {
+    //             text-decoration-line: underline;
+    //             text-decoration-style: double;
+    //             color: $pink;
+    //         }
+    //     }
+    // }
 
     // Section 1 
 
@@ -154,6 +196,7 @@
     .text-five {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .text-five h2 {
